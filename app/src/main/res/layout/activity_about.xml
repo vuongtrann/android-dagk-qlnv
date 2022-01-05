@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trần Quốc Vương "
+            android:textAlignment="center"
+            android:textSize="10pt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D18-TH02"
+            android:textAlignment="center"
+            android:textSize="10pt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DH51801674"
+            android:textAlignment="center"
+            android:textSize="10pt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dh51801674@student.stu.edu.vn"
+            android:textAlignment="center"
+            android:textSize="10pt" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="218dp"
+            android:layout_height="match_parent"
+            android:text="Điện Thoại:"
+            android:textAlignment="center"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/txtPhoneNum"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:text="0968580776"
+            android:textAlignment="center"
+            android:textSize="10pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/quaySo"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Goi"
+            android:textSize="10pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:orientation="horizontal">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/nmap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="538dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>
